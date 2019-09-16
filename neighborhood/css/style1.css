@@ -1,0 +1,61 @@
+body {
+  background: #D291BC;
+  /* The above is called a hex code.
+     There are two other ways to do colors in CSS: rgb and common names
+     Find "Digital Color Meter" on your computer to explore more */
+  color: black;
+  font-size: 16px;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+ul {
+  padding:0;
+}
+#toc {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  /* a background color might help it be differentiated from the rest */
+  background: black;
+  /* that means you'll have to change the color of the text */
+  color: #D291BC;
+  /* some padding might make it look better */
+  padding: 1em 3em 1em 4.5em;
+  /* maybe making the font size here smaller will help too */
+  font-size: 0.7em;
+}
+
+#toc ul {
+  padding: 0;
+  list-style-type: none;
+  /* you could also change the type of bullet with the above declaration! */
+}
+
+
+a {
+  color: #D291BC;
+  text-decoration: none;
+  /* By default, links are blue and have an underline.
+     The above CSS changes both those things. */
+}
+
+a:hover {
+  color: yellow;
+}
+
+#container {
+  max-width: 700px;
+  /* I put "max-width" rather than "width" because
+ if the screen width is less than 650px, it will shrink accordingly. */
+}
+
+img {
+  max-width: 75%;
+}
+
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 20px;
+}
