@@ -50,6 +50,7 @@ a:hover {
 
 img {
   max-width: 75%;
+  /* animation: huerotate 1s linear infinite; */
 }
 
 
@@ -59,3 +60,23 @@ h1 {
 h2 {
   font-size: 20px;
 }
+#images {
+  display:flex;
+}
+
+#images img {
+  margin: 20px;
+}
+
+/* #images #theroof {
+  filter: hue-rotate(40deg);
+} */
+
+/* @keyframes huerotate {
+  from {
+    filter: hue-rotate(0deg)
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+} */
