@@ -8,11 +8,7 @@ body {
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
-ol li:before {
-		content: "2665";
-	     }
-
-ol {
+ul {
   padding:0;
 }
 
@@ -31,10 +27,14 @@ ol {
     font-size: 0.7em;
 }
 
-#toc ol {
+#toc ul {
   padding: 0;
   list-style-type: none;
   /* you could also change the type of bullet with the above declaration! */
+}
+
+#toc ul {
+  list-style: #2665;
 }
 
 
@@ -58,7 +58,7 @@ a:hover {
 
 img {
   max-width: 75%;
-  /* animation: huerotate 1s linear infinite; */
+  animation: huerotate 1s linear infinite;
 }
 
 
@@ -76,14 +76,10 @@ h2 {
   margin: 20px;
 }
 
-#images #theroof {
-  filter: hue-rotate(40deg);
-} */
-
 @keyframes huerotate {
   from {
     filter: hue-rotate(0deg)
   }
   to {
     filter: hue-rotate(360deg);
-  }
+  } /*thanks to greg for helping me with this!/*
