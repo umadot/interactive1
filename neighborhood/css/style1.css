@@ -7,28 +7,36 @@ body {
   font-size: 16px;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
-ul {
+
+ol li:before {
+		content: "2665";
+	     }
+
+ol {
   padding:0;
 }
+
+
 #toc {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  /* a background color might help it be differentiated from the rest */
-  background: black;
-  /* that means you'll have to change the color of the text */
-  color: #D291BC;
-  /* some padding might make it look better */
-  padding: 1em 3em 1em 4.5em;
-  /* maybe making the font size here smaller will help too */
-  font-size: 0.7em;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    /* a background color might help it be differentiated from the rest */
+    background: black;
+    /* that means you'll have to change the color of the text */
+    color: #D291BC;
+    /* some padding might make it look better */
+    padding: 1em 3em 1em 4.5em;
+    /* maybe making the font size here smaller will help too */
+    font-size: 0.7em;
 }
 
-#toc ul {
+#toc ol {
   padding: 0;
   list-style-type: none;
   /* you could also change the type of bullet with the above declaration! */
 }
+
 
 
 a {
@@ -68,15 +76,14 @@ h2 {
   margin: 20px;
 }
 
-/* #images #theroof {
+#images #theroof {
   filter: hue-rotate(40deg);
 } */
 
-/* @keyframes huerotate {
+@keyframes huerotate {
   from {
     filter: hue-rotate(0deg)
   }
   to {
     filter: hue-rotate(360deg);
   }
-} */
