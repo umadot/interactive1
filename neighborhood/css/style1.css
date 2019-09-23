@@ -88,12 +88,12 @@ h2 {
 }
 
 
-/*img {
+img {
   max-width: 75%;
   animation: huerotate 1s linear infinite;
 }
 
-/*@keyframes huerotate {
+@keyframes huerotate {
   from {
     filter: hue-rotate(0deg)
   }
