@@ -22,21 +22,22 @@ ul {
     /* that means you'll have to change the color of the text */
     color: #D291BC;
     /* some padding might make it look better */
-    padding: 1em 3em 1em 4.5em;
+    padding: 1em 2em 1em 2em;
     /* maybe making the font size here smaller will help too */
     font-size: 0.7em;
 }
 
-#toc ul {
+ #toc ul {
   padding: 0;
   list-style-type: none;
   /* you could also change the type of bullet with the above declaration! */
 }
 
-#toc ul {
-  list-style: #2665;
-}
-
+ul li:before {
+		content: "\2665";
+    color: yellow;
+    padding-right: 16px;
+	     }
 
 
 a {
@@ -55,15 +56,17 @@ a:hover {
   /* I put "max-width" rather than "width" because
  if the screen width is less than 650px, it will shrink accordingly. */
 }
-
 img {
   max-width: 75%;
-  animation: huerotate 1s linear infinite;
 }
 
 
 h1 {
-  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+  font-stretch: expanded;
+  font-family: monotype-modern-display, sans-serif;
 }
 h2 {
   font-size: 20px;
@@ -73,10 +76,24 @@ h2 {
 }
 
 #images img {
-  margin: 20px;
+  margin: 20px 20px 20px 20px;
 }
 
-@keyframes huerotate {
+#images2 {
+  display:flex;
+}
+
+#images2 img {
+  margin-left: 20px;
+}
+
+
+/*img {
+  max-width: 75%;
+  animation: huerotate 1s linear infinite;
+}
+
+/*@keyframes huerotate {
   from {
     filter: hue-rotate(0deg)
   }
