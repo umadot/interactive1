@@ -71,6 +71,9 @@ h1 {
 h2 {
   font-size: 20px;
 }
+p {
+  margin: 20px 20px 80px 20px
+}
 #images {
   display:flex;
 }
@@ -78,6 +81,8 @@ h2 {
 #images img {
   margin: 20px 20px 20px 20px;
 }
+
+
 
 #images2 {
   display:flex;
@@ -91,6 +96,13 @@ h2 {
 {
      margin: 100px;
      width: 600px;
+
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
 }
 
 img {
