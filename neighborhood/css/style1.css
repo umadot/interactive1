@@ -87,6 +87,11 @@ h2 {
   margin-left: 20px;
 }
 
+.center-div
+{
+     margin: 100px;
+     width: 600px;
+}
 
 img {
   max-width: 75%;
