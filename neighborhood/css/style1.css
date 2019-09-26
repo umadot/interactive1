@@ -102,19 +102,27 @@ p {
 
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 100px;
 
     /* Flexbox stuff */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
+
 }
 
 img {
   max-width: 75%;
   animation: huerotate 1s linear infinite;
 }
+
+/* turn animation into hover feature
+change z index, so header stays over content
+Get it to flow better
+instead of color and keyframe, try monochrome
+*/
 
 @keyframes huerotate {
   from {
