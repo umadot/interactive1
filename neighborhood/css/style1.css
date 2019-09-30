@@ -35,7 +35,7 @@ ul {
 }
 
 ul li: before {
-		content: "\2665";
+		content: "2665";
     color: yellow;
     padding-right: 16px;
 	     }
@@ -103,8 +103,8 @@ p {
 
 .hero {
     /* Sizing */
-    width: 1200px;
-    height: 400px;
+    width: 2400px;
+    height: 800px;
     margin-bottom: 150px;
 
     /* Flexbox stuff */
