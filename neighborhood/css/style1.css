@@ -29,13 +29,13 @@ ul {
 }
 
  #toc ul {
-  padding: 0;
+  padding: 5px; 5px;
   list-style-type: none;
   /* you could also change the type of bullet with the above declaration! */
 }
 
-ul li: before {
-		content: "2665";
+a:before {
+		content: "\2665";
     color: yellow;
     padding-right: 16px;
 	     }
@@ -48,12 +48,16 @@ a {
      The above CSS changes both those things. */
 }
 
-a: hover {
+a:hover {
   color: yellow;
 }
 
+#header {
+  margin-left:100px
+}
+
 #container {
-  max-width: 700px;
+  max-width: 650;
   /* I put "max-width" rather than "width" because
  if the screen width is less than 650px, it will shrink accordingly. */
 }
@@ -61,14 +65,16 @@ img {
   max-width: 75%;
 }
 
-
 h1 {
   font-weight: 900;
   font-style: normal;
   font-size: 40px;
   font-stretch: expanded;
   font-family: monotype-modern-display, sans-serif;
+  margin:20px 20px 20px 10px;
+  max-width:2000px;
 }
+
 h2 {
   font-size: 20px;
 }
@@ -81,7 +87,7 @@ p {
 }
 
 #images img {
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 10px;
 }
 
 
@@ -90,27 +96,27 @@ p {
   display:flex;
 }
 
-#images2 img {
-  margin: 60px 20px 20px 20px;
+#images2 img{
+  margin: 20px 30px 20px 10px;
 }
 
 .center-div
 {
      margin: 100px;
-     width: 600px;
+     width: 650px;
 
 }
 
 .hero {
     /* Sizing */
     width: 2400px;
-    height: 800px;
-    margin-bottom: 150px;
+    height: 200px;
+    margin: 0px 0px 350px 0px;
 
     /* Flexbox stuff */
     display: flex;
     justify-content: left;
-    align-items: flex-start;
+    align-items:center ;
 
 }
 
