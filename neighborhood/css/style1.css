@@ -25,6 +25,7 @@ ul {
     padding: 1em 2em 1em 2em;
     /* maybe making the font size here smaller will help too */
     font-size: 0.7em;
+    z-index: 100;
 }
 
  #toc ul {
@@ -33,7 +34,7 @@ ul {
   /* you could also change the type of bullet with the above declaration! */
 }
 
-ul li:before {
+ul li: before {
 		content: "\2665";
     color: yellow;
     padding-right: 16px;
@@ -47,7 +48,7 @@ a {
      The above CSS changes both those things. */
 }
 
-a:hover {
+a: hover {
   color: yellow;
 }
 
@@ -72,7 +73,7 @@ h2 {
   font-size: 20px;
 }
 p {
-  margin: 20px 20px 60px 20px
+  margin: 20px 20px 20px 20px
 }
 
 #images {
@@ -90,7 +91,7 @@ p {
 }
 
 #images2 img {
-  margin-left: 20px;
+  margin: 60px 20px 20px 20px;
 }
 
 .center-div
@@ -104,7 +105,7 @@ p {
     /* Sizing */
     width: 1200px;
     height: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
     /* Flexbox stuff */
     display: flex;
@@ -113,7 +114,7 @@ p {
 
 }
 
-img {
+/*img {
   max-width: 75%;
   animation: huerotate 1s linear infinite;
 }
@@ -124,7 +125,7 @@ Get it to flow better
 instead of color and keyframe, try monochrome
 */
 
-@keyframes huerotate {
+/*@keyframes huerotate {
   from {
     filter: hue-rotate(0deg)
   }

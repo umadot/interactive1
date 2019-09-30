@@ -1,0 +1,52 @@
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        background: white;
+        z-index: -1;
+}
+
+#stripea {
+        width:  500px;
+        height: 20px;
+        background: #00AEEF;
+        z-index:2;
+}
+#stripeb {
+        width:  500px;
+        height: 40px;
+        background: #019548;
+        z-index:  4;
+}
+#stripec {
+        width:  500px;
+        height: 60px;
+        background: #F9DD01;
+        z-index:  6;
+}
+
+#striped {
+        width:  500px;
+        height: 80px;
+        background: #F6BA18;
+        z-index:  8;
+        float:left;
+}
+#stripee {
+        width:  500px;
+        height: 100px;
+        background: #F47421;
+        z-index:  10;
+        float:left;
+}
