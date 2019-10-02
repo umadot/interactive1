@@ -116,7 +116,7 @@ p {
     /* Flexbox stuff */
     display: flex;
     justify-content: left;
-    align-items:center ;
+    align-items: flex-start;
 
 }
 

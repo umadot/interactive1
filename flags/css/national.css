@@ -29,54 +29,88 @@ img {
     position: absolute;
           top: 75px;
           left: 175px;
-          z-index:20;
 }
 
 #horizontal {
         padding-left:250px;
+        transition: padding-left 1s ease;
+        z-index: 16;
 }
 #vertical {
-        padding-top:-300px;
         padding-left:0px;
+        transition: padding-left 1s ease;
+        z-index: 18;
+        position: relative;
+}
+
+#horizontal:hover #stripea, #horizontal:hover #stripeb, #horizontal:hover #stripec {
+  width: 500px;
+}
+
+#vertical:hover #striped, #vertical:hover #stripee, #vertical:hover #stripef {
+  width: 166.66px;
+}
+
+#ashokawheel {
+  z-index: 16;
+}
+
+#horizontal:hover + #ashokawheel {
+  z-index: 19;
+}
+
+#horizontal:hover {
+  padding-left: 0;
+  position: absolute;
+  z-index: 18;
+}
+#vertical:hover {
+  padding-left:0;
+  position: absolute;
+  z-index:20;
+}
+
+#vertical {
+  z-index: 17;
 }
 
 #stripea {
         width:  250px;
         height: 100px;
         background: #F47421;
-        z-index:2;
+        transition: width 1s ease;
 }
 #stripeb {
         width:  250px;
         height: 100px;
         background: white;
-        z-index:  4;
+        transition: width 1s ease;
 }
 #stripec {
         width:  250px;
         height: 100px;
         background: #019548;
-        z-index:  6;
+        transition: width 1s ease;
 }
 
 #striped {
         width:  83.33px;
         height: 300px;
         background: #019548;
-        z-index:  8;
         float:left;
+        transition: width 1s ease;
 }
 #stripee {
         width:  83.33px;
         height: 300px;
         background: white;
-        z-index:  10;
         float:left;
+        transition: width 1s ease;
 }
 #stripef {
         width:  83.33px;
         height: 300px;
         background: #F47421;
-        z-index:  12;
         float:left;
+        transition: width 1s ease;
 }

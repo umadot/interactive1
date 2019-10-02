@@ -50,3 +50,18 @@ body {
         z-index:  10;
         float:left;
 }
+
+#stripesgradient {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+  }
+#stripesgradient:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00aeef+0,019548+15,f9dd01+35,f6ba18+65,f47421+100 */
+    background: rgb(0,174,239); /* Old browsers */
+    background: -moz-linear-gradient(to bottom, rgba(0,174,239,1) 0%,rgba(11,149,72,1) 15%,rgba(249,221,1,1) 34%,rgba(246,186,24,1) 55%,rgba(244,116,33,1) 75%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to bottom, rgba(0,174,239,1) 0%,rgba(11,149,72,1) 15%,rgba(249,221,1,1) 34%,rgba(246,186,24,1) 55%,rgba(244,116,33,1) 75%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,174,239,1) 0%,rgba(11,149,72,1) 15%,rgba(249,221,1,1) 34%,rgba(246,186,24,1) 55%,rgba(244,116,33,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeef', endColorstr='#f47421',GradientType=0 ); /* IE6-9 */
+    z-index:12;
+  }
