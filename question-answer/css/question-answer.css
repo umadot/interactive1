@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'font_catsregular';
+    src: url('../fonts/font_cats_ver1.00-webfont.woff2') format('woff2'),
+         url('../fonts/font_cats_ver1.00-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#question {
+  background: black;
+  font-size: 100px;
+  font-family: 'Oleo Script', cursive;
+}
+
+#question{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: yellow;
+  width: 100vw;
+  height: 100vh;
+}
+#answer {
+  display: none;
+  z-index:22;
+}
+/* hidden message */
+@media (max-width: 1024px) {
+  body {
+   background: yellow;
+}
+
+img {width:100%;
+z-index: -1;
+position:absolute;
+}
+
+#nutmeg {
+  max-width: 25vw;
+  position:absolute;
+  z-index:-1;
+  opacity:0.25;
+}
+#answer {
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'font_catsregular';
+    font-size: 60px;
+}
+#question {
+    display: none;
+  }
+}
