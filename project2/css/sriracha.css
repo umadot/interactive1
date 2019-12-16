@@ -1,0 +1,457 @@
+/*sriracha.css*/
+#canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(20, 1fr);
+grid-template-rows: repeat(15, 2fr);
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+}
+
+.div1 { grid-area: 1 / 2 / 4 / 5; }
+.div2 { grid-area: 1 / 5 / 4 / 8; }
+.div3 { grid-area: 1 / 8 / 4 / 11; }
+.div4 { grid-area: 1 / 11 / 4 / 14; }
+.div5 { grid-area: 1 / 14 / 4 / 17; }
+.div6 { grid-area: 1 / 17 / 4 / 20; }
+.div7 { grid-area: 4 / 2 / 7 / 5; }
+.div8 { grid-area: 4 / 5 / 7 / 8; }
+.div9 { grid-area: 4 / 8 / 7 / 11; }
+.div10 { grid-area: 4 / 11 / 7 / 14; }
+.div11 { grid-area: 4 / 14 / 7 / 17; }
+.div12 { grid-area: 4 / 17 / 7 / 20; }
+.div13 { grid-area: 7 / 2 / 10 / 5; }
+.div14 { grid-area: 7 / 5 / 10 / 8; }
+.div15 { grid-area: 7 / 8 / 10 / 11; }
+.div16 { grid-area: 7 / 11 / 10 / 14; }
+.div17 { grid-area: 7 / 14 / 10 / 17; }
+.div18 { grid-area: 7 / 17 / 10 / 20; }
+.div19 { grid-area: 10 / 2 / 13 / 5; }
+.div20 { grid-area: 10 / 5 / 13 / 8; }
+.div21 { grid-area: 10 / 8 / 13 / 11; }
+.div22 { grid-area: 10 / 11 / 13 / 14; }
+.div23 { grid-area: 10 / 14 / 13 / 17; }
+.div24 { grid-area: 10 / 17 / 13 / 20; }
+
+.div25 { grid-area: 13 / 2 / 16 / 5; }
+.div26 { grid-area: 13 / 5 / 16 / 8; }
+.div27 { grid-area: 13 / 8 / 16 / 11; }
+.div28 { grid-area: 13 / 11 / 16 / 14; }
+.div29 { grid-area: 13 / 14 / 16 / 17; }
+.div30 { grid-area: 13 / 17 / 16 / 20; }
+
+#flameanimated1
+position: relative;
+width: 48.3px;
+height: 48.4px;
+left: 47.8px;
+top: 18.4px;
+
+
+#flameanimated2b
+position: relative to #specimen ;
+width: 24.4px;
+height: 24.5px;
+left: 11.7px;
+top: 84.5px;
+z-index:99;
+
+#lettera
+position: relative;
+left: 21.31%;
+right: 12.7%;
+top: 40.82%;
+bottom: 7.35%;
+z-index: 100;
+
+#flameanimated3b
+position: relative to #specimen ;
+width: 244px;
+height: 245px;
+left: 431px;
+top: 845px;
+
+#flameanimated4b
+position: relative;
+width: 244px;
+height: 245px;
+left: 745px;
+top: 845px;
+
+#flameanimated5b
+position: relative;
+width: 244px;
+height: 245px;
+left: 1059px;
+top: 845px;
+
+#flameanimated6b
+position: relative;
+width: 244px;
+height: 245px;
+left: 117px;
+top: 1186px;
+
+#flameanimated7b
+position: relative;
+width: 244px;
+height: 245px;
+left: 431px;
+top: 1186px;
+
+#flameanimated8b
+position: relative;
+width: 244px;
+height: 245px;
+left: 745px;
+top: 1186px;
+
+#flameanimated9b
+position: relative;
+width: 244px;
+height: 245px;
+left: 1059px;
+top: 1186px;
+
+#flameanimated10b
+position: relative;
+width: 244px;
+height: 245px;
+left: 431px;
+top: 1527px;
+
+#flameanimated11b
+position: relative;
+width: 244px;
+height: 245px;
+left: 745px;
+top: 1527px;
+
+#flameanimated12b
+position: relative;
+width: 244px;
+height: 245px;
+left: 1059px;
+top: 1527px;
+
+#flameanimated13b
+position: relative;
+width: 244px;
+height: 245px;
+left: 117px;
+top: 1868px;
+
+#flameanimated14b
+position: relative;
+width: 244px;
+height: 245px;
+left: 431px;
+top: 1868px;
+
+#flameanimated15b
+position: relative;
+width: 244px;
+height: 245px;
+left: 745px;
+top: 1868px;
+
+#flameanimated16b
+position: relative;
+width: 244px;
+height: 245px;
+left: 1059px;
+top: 1868px;
+
+#flameanimated17b
+position: relative;
+width: 244px;
+height: 245px;
+left: 115px;
+top: 2209px;
+
+#flameanimated18b
+position: relative;
+width: 244px;
+height: 245px;
+left: 429px;
+top: 2209px;
+
+#flameanimated19b
+position: relative;
+width: 244px;
+height: 245px;
+left: 744px;
+top: 2209px;
+
+#flameanimated20b
+position: relative;
+width: 244px;
+height: 245px;
+left: 1058px;
+top: 2209px;
+
+#flameanimated21b
+position: relative;
+width: 244px;
+height: 245px;
+left: 115px;
+top: 2550px;
+
+#flameanimated22b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 429px;
+top: 2550px;
+
+#flameanimated23b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 744px;
+top: 2550px;
+
+#flameanimated24b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 1058px;
+top: 2550px;
+
+#flameanimated25b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 115px;
+top: 2891px;
+
+#flameanimated26b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 429px;
+top: 2891px;
+
+#flameanimated27b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 445px;
+top: 3398px;
+
+#flameanimated28b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 759px;
+top: 3739px;
+
+#flameanimated29b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 759px;
+top: 3398px;
+
+#flameanimated30b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 1072px;
+top: 3398px;
+
+#flameanimated31b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 445px;
+top: 3739px;
+
+#flameanimated32b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 1072px;
+top: 3739px;
+
+#flameanimated33b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 124px;
+top: 4929px;
+
+#flameanimated34b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 438px;
+top: 4929px;
+
+#flameanimated35b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 124px;
+top: 5270px;
+
+#flameanimated36b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 438px;
+top: 5270px;
+
+#flameanimated37b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 445px;
+top: 4080px;
+
+#flameanimated38b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 759px;
+top: 4080px;
+
+#flameanimated39b
+position: absolute;
+width: 243px;
+height: 245px;
+left: 1072px;
+top: 4080px;
+
+#flameanimated40b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 124px;
+top: 4588px;
+
+#flameanimated41b
+position: absolute;
+width: 244px;
+height: 245px;
+left: 438px;
+top: 4588px;
+
+#flameanimated42b
+position: absolute;
+width: 104px;
+height: 104px;
+left: 187px;
+top: 1514px;
+
+#flameanimated43b
+position: absolute;
+width: 68px;
+height: 163px;
+left: 205px;
+top: 1618px;
+
+#flameanimated44b
+position: absolute;
+width: 483px;
+height: 484px;
+left: 441px;
+top: 106px;
+
+#flameanimated45b
+position: absolute;
+width: 168px;
+height: 168px;
+left: 670px;
+top: 829px;
+
+#flameanimated46b
+position: absolute;
+width: 171px;
+height: 171px;
+left: 320px;
+top: 1080px;
+
+#flameanimated47b
+position: absolute;
+width: 171px;
+height: 171px;
+left: 869px;
+top: 1086px;
+
+#flameanimated48b
+position: absolute;
+width: 159px;
+height: 160px;
+left: 205px;
+top: 829px;
+
+#flameanimated49b
+position: absolute;
+width: 159px;
+height: 159px;
+left: 485px;
+top: 829px;
+
+#flameanimated50b
+position: absolute;
+width: 159px;
+height: 159px;
+left: 20px;
+top: 829px;
+
+#flameanimated51b
+position: absolute;
+width: 171px;
+height: 171px;
+left: 686px;
+top: 1083px;
+
+#flameanimated52b
+position: absolute;
+width: 171px;
+height: 172px;
+left: 503px;
+top: 1077px;
+
+#flameanimated53b
+position: absolute;
+width: 68px;
+height: 68px;
+left: 390px;
+top: 829px;
+
+
+#flameanimated54b
+position: absolute;
+width: 168px;
+height: 168px;
+left: 1252px;
+top: 829px;
+
+#flameanimated55b
+position: absolute;
+width: 168px;
+height: 168px;
+left: 1058px;
+top: 829px;
+
+#flameanimated56b
+position: absolute;
+width: 167px;
+height: 168px;
+left: 864px;
+top: 829px;
+
+
+#letteri
+position: absolute;
+width: 44px;
+height: 106px;
+left: 403px;
+top: 897px;
